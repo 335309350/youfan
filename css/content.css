@@ -1,0 +1,154 @@
+i {
+  font-style: normal;
+}
+.content {
+  min-width: 1280px;
+  margin-left: -103px;
+}
+.content .wrap {
+  width: 1280px;
+  height: 626px;
+}
+.content .wrap #slides {
+  width: 1280px;
+  height: 626px;
+  text-align: center;
+  margin-left: 33px;
+}
+.content .hotwrap {
+  min-width: 1280px;
+  height: 600px;
+  background-color: #FBFBFB;
+  margin-top: 11px;
+  margin-left: 33px;
+}
+.content .hotwrap .hot {
+  margin-left: 2px;
+}
+.content .hotwrap .hot img {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: -18px;
+}
+.content .hotwrap .hot .p1,
+.content .hotwrap .hot .p2 {
+  margin-right: 11px;
+}
+.content .hotwrap .hot .p1,
+.content .hotwrap .hot .p2,
+.content .hotwrap .hot .p3 {
+  float: left;
+}
+.content .recommend {
+  min-width: 1280px;
+  height: 850px;
+  background-color: #fff;
+}
+.content .recommend .title1 {
+  margin-top: 80px;
+  margin-left: 450px;
+  margin-bottom: 30px;
+}
+.content .recommend .title1 span {
+  float: left;
+  margin-right: 20px;
+}
+.content .recommend .title1 .s1,
+.content .recommend .title1 .s4 {
+  width: 5px;
+  height: 5px;
+  margin-top: 15px;
+  background-image: url('../images/point.jpg');
+}
+.content .recommend .title1 .s2 {
+  font-size: 24px;
+  font-family: microsoft yahei;
+  font-weight: 700;
+}
+.content .recommend .title1 .s3 {
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 400;
+}
+.content .recommend .two {
+  margin-left: 33px;
+  margin-right: -30px;
+}
+.content .recommend .two img {
+  height: 330px;
+  width: 634px;
+  overflow: hidden;
+  float: left;
+}
+.content .recommend .two .img1 {
+  margin-right: 9px;
+}
+.content .recommend ul {
+  margin-left: 34px;
+  margin-top: 12px;
+  list-style: none;
+  margin-right: -28px;
+}
+.content .recommend ul li {
+  float: left;
+  margin-right: 10px;
+}
+.content .recommend ul .first {
+  margin-left: -40px;
+}
+.content .recommend ul .last {
+  margin-right: 0;
+}
+.content .new {
+  min-width: 1280px;
+  height: 800px;
+  margin-left: 33px;
+  background-color: #FBFBFB;
+}
+.content .new .title2 {
+  padding-top: 80px;
+  margin-left: 450px;
+  margin-bottom: 30px;
+}
+.content .new .title2 span {
+  float: left;
+  margin-right: 20px;
+}
+.content .new .title2 .s1,
+.content .new .title2 .s4 {
+  width: 5px;
+  height: 5px;
+  margin-top: 15px;
+  background-image: url('../images/point.jpg');
+}
+.content .new .title2 .s2 {
+  font-size: 24px;
+  font-family: microsoft yahei;
+  font-weight: 700;
+}
+.content .new .title2 .s3 {
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 400;
+}
+.content .new .left,
+.content .new .right {
+  float: left;
+}
+.content .new .left {
+  width: 400px;
+  height: 600px;
+  margin-right: -20px;
+}
+.content .new .right ul {
+  margin-left: 0;
+  list-style: none;
+}
+.content .new .right ul li {
+  width: 280px;
+  float: left;
+  margin-right: 7px;
+}
+.content .new .right ul .last {
+  margin-right: 0;
+}

@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>品牌馆-有范官网</title>
+	<link rel="stylesheet" href="libs/bootstrap.min.css">
+	<script src="libs/jquery.min.js"></script>
+	<script src="libs/bootstrap.min.js"></script>
+	<script src="libs/angular.min.js"></script>
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/brand.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<script src="libs/jquery.slides.min.js"></script>
+	<script src="js/lunbo.js"></script>
+	<script src="js/youfan.js"></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<header>
+		<div class="top_bar clearfix">
+			<span>
+				Hi ~ 亲爱的会员
+				<a href="login.html">请登录</a>
+				<a href="free.html">免费注册</a> 
+			</span>
+			<ul class="clearfix">
+				<a href="">
+					<li class="n1">
+					我的账户<i></i>
+					</li>
+				</a>
+				<a href="">
+					<li class="n2">
+					<i></i>我的订单
+					</li>
+				</a>
+				<a href="">
+					<li class="n3">
+					<i></i>我的收藏
+					</li>
+				</a>
+				<a href="">
+					<li class="n4">
+					<i></i>手机版
+					</li>
+				</a>
+<!-- 隐藏手机端二维码 -->
+				<div id="mobile">
+					<img src="images/appdownload2.png" alt="">
+				</div>
+<!-- 隐藏我的帐户 -->
+				<div class="my">
+					<a href="">我的范票</a></br>
+					<a href="">收获地址</a
+				</div>
+<!-- 隐藏结束 -->
+			</ul>
+		</div>
+<!-- 头部导航 -->
+		<div class="nav clearfix">
+			<div class="logo">
+				<a href="index.html"><img src="images/new-logo.jpg" alt=""></a>
+			</div>
+			<div class="list clearfix">
+<!-- 女装 男装 生活 -->
+				<ul class="l1 clearix">
+					<a href="women.html"><li class="nz">
+						<img src="images/nav-4.svg" alt="">
+					</li></a>
+<!-- 隐藏女装 -->
+					<div id="nz">
+						<div class="circle1"></div>
+						<ul>热门分类
+							<li>衬衣</li>
+							<li>卫衣</li>
+							<li>裙类</li>
+						</ul>
+						<ul>
+							<li>毛衣</li>
+							<li>裤装</li>
+							<li>外套</li>
+						</ul>
+						<ul>品牌精选
+							<li>Celiba</li>
+							<li>THE NEXT</li>
+							<li>初语</li>
+						</ul>
+						<ul>
+							<li>BRISTON</li>
+							<li>AIJEK</li>
+							<li>米戈</li>
+						</ul>
+						<div class="pic">
+							<img src="images/MC-female.jpg" alt="">
+						</div>
+					</div>
+<!-- 女装结束 -->
+					<a href="men.html"><li class="nanz">
+						<img src="images/nav-3.svg" alt="">
+					</li></a>
+<!-- 隐藏男装 -->
+					<div id="nanz">
+						<div class="circle2"></div>
+						<ul>热门分类
+							<li>衬衣</li>
+							<li>卫衣</li>
+							<li>T恤</li>
+						</ul>
+						<ul>
+							<li>毛衣</li>
+							<li>裤装</li>
+							<li>外套</li>
+						</ul>
+						<ul>品牌精选
+							<li>Celiba</li>
+							<li>THE NEXT</li>
+							<li>初语</li>
+						</ul>
+						<ul>
+							<li>BRISTON</li>
+							<li>AIJEK</li>
+							<li>米戈</li>
+						</ul>
+						<div class="pic">
+							<img src="images/MC-male.jpg" alt="">
+						</div>
+					</div>
+<!-- 男装结束 -->
+					<a href="life.html"><li class="sh">
+						<img src="images/nav-6.svg" alt="">
+					</li></a>
+<!-- 隐藏生活 -->
+					<div id="sh">
+						<div class="circle3"></div>
+						<ul>热门分类
+							<li>家具纺织</li>
+							<li>碗筷</li>
+							<li>裙类</li>
+						</ul>
+						<ul>
+							<li>家具日用</li>
+							<li>手机数码</li>
+							<li>T恤</li>
+						</ul>
+						<ul>品牌精选
+							<li>Celiba</li>
+							<li>THE NEXT</li>
+							<li>The 2nd law</li>
+						</ul>
+						<ul>
+							<li>BRISTON</li>
+							<li>AIJEK</li>
+							<li>佐纳</li>
+						</ul>
+						<div class="pic">
+							<img src="images/emoi.jpg" alt="">
+						</div>
+					</div>
+<!-- 生活结束 -->
+				</ul>
+<!-- 鞋履 箱包 配饰 品牌 -->
+				<ul class="l2 clearfix">
+					<a href="shoes.html"><li>
+						<img src="images/nav-9.svg" alt="">
+					</li></a>
+					<a href="bags.html"><li>
+						<img src="images/nav-8.svg" alt="">
+					</li></a>
+					<a href="decration.html"><li>
+						<img src="images/nav-5.svg" alt="">
+					</li></a>
+					<a href="brand.html"><li>
+						<img src="images/nav-7.svg" alt="">
+					</li></a>
+				</ul>
+			</div>
+			<div class="search clearfix">
+				<div id="search">
+					<img src="images/btn_search.svg" alt="">
+				</div>
+				<span>
+					<img src="images/btn_shoppingbag.svg" alt="">
+				</span>
+			</div>
+<!-- search部分动画 -->
+			<div id="move">
+				<i>
+					<img src="images/btn_search.svg" 
+				</i>
+				<input type="text" placeholder="搜索有范品牌、商品">
+				<i id="close">
+					<img src="images/close.jpg" alt="">
+				</i>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- 内容 -->
+	<div class="content">
+		<div class="all">
+			<p><span>首页</span>>品牌</p>
+			<div class="fast">
+				<span>快速前往：</span>
+				<a href="#a">A</a>
+				<a href="#b">B</a>
+				<a href="#c">C</a>
+				<a href="#d">D</a>
+				<a href="#e">E</a>
+				<a href="#f">F</a>
+				<a href="#g">G</a>
+				<a href="#h">H</a>
+				<a href="#i">I</a>
+				<a href="#j">J</a>
+				<a href="#k">K</a>
+				<a href="#l">L</a>
+				<a href="#m">M</a>
+				<a href="#n">N</a>
+				<a href="#o">O</a>
+				<a href="#p">P</a>
+				<a href="#q">Q</a>
+				<a href="#r">R</a>
+				<a href="#s">S</a>
+				<a href="#t">T</a>
+				<a href="#u">U</a>
+				<a href="#v">V</a>
+				<a href="#w">W</a>
+				<a href="#x">X</a>
+				<a href="#y">Y</a>
+				<a href="#z">Z</a>
+				<a href="#zz">#</a>
+			</div>
+		</div>
+		<div class="a1">
+			<a name="a"></a>
+			<span>A</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="b2">
+			<a name="b"></a>
+			<span>B</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="c3">
+			<a name="c"></a>
+			<span>C</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="d4">
+			<a name="d"></a>
+			<span>D</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="e5">
+			<a name="e"></a>
+			<span>E</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="f6">
+			<a name="f"></a>
+			<span>F</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="g7">
+			<a name="g"></a>
+			<span>G</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="h8">
+			<a name="h"></a>
+			<span>H</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="i9">
+			<a name="i"></a>
+			<span>I</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="j10">
+			<a name="j"></a>
+			<span>J</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="k11">
+			<a name="k"></a>
+			<span>K</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="l12">
+			<a name="l"></a>
+			<span>L</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="m13">
+			<a name="m"></a>
+			<span>M</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+			</ul>
+		</div>
+		<div class="n14">
+			<a name="n"></a>
+			<span>N</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="o15">
+			<a name="o"></a>
+			<span>O</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="p16">
+			<a name="p"></a>
+			<span>P</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="q17">
+			<a name="q"></a>
+			<span>Q</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+				
+				</li>
+			</ul>
+		</div>
+		<div class="r18">
+			<a name="r"></a>
+			<span>R</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="s19">
+			<a name="s"></a>
+			<span>S</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="t20">
+			<a name="t"></a>
+			<span>T</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+					<a href="">Ascis</a></br>
+					<a href="">AMPM</a>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+					<a href="">ADIDAS ORIGINALS</a></br>
+					<a href="">adidas neo</a>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+					<a href="">adidas</a>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+					<a href="">AIJEK</a>
+				</li>
+			</ul>
+		</div>
+		<div class="u21">
+			<a name="u"></a>
+			<span>U</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+				</li>
+			</ul>
+		</div>
+		<div class="v22">
+			<a name="v"></a>
+			<span>V</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					
+				</li>
+			</ul>
+		</div>
+		<div class="w23">
+			<a name="w"></a>
+			<span>W</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					
+				</li>
+			</ul>
+		</div>
+		<div class="x24">
+			<a name="x"></a>
+			<span>X</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+				</li>
+				<li>
+				</li>
+				<li>
+				</li>
+			</ul>
+		</div>
+		<div class="y25">
+			<a name="y"></a>
+			<span>Y</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+				</li>
+				<li>
+				</li>
+			</ul>
+		</div>
+		<div class="z26">
+			<a name="z"></a>
+			<span>Z</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+		<div class="zz">
+			<a name="zz"></a>
+			<span>#</span>
+			<ul class="clearfix">
+				<li>
+					<a href="">AdroeHome喜悦家</a></br>
+				</li>
+				<li>
+					<a href="">Amenpapa</a></br>
+				</li>
+				<li>
+					<a href="">AEKYUNG爱敬</a></br>
+				</li>
+				<li>
+					<a href="">艾利欣</a></br>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!--尾部  -->
+	<footer>
+		<div class="foot">
+			<div class="top clearfix">
+				<div class="left clearfix">
+					<ul>新手指南
+						<li class="t"><a href="">注册新用户</a></li>
+						<li><a href="">用户协议</a></li>
+						<li><a href="">找回密码</a></li>
+						<li><a href="">移动客户端下载</a></li>
+					</ul>
+					<ul>购物指南
+						<li class="t"><a href="">购物流程</a></li>
+						<li><a href="">订单拆分</a></li>
+						<li><a href="">范票使用说明</a></li>
+					</ul>
+					<ul>配送方式
+						<li class="t"><a href="">配送事件及范围</a></li>
+						<li><a href="">配送费收取标准</a></li>
+						<li><a href="">物流查询</a></li>
+					</ul>
+					<ul>支付方式
+						<li class="t"><a href="">发票制度</a></li>
+						<li><a href="">支付方式</a></li>
+					</ul>
+					<ul>售后服务
+						<li class="t"><a href="">退货政策</a></li>
+						<li><a href="">退货办理流程</a></li>
+						<li><a href="">退货说明</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<span>
+						<img src="images/contact.jpg" alt="">
+					</span>
+					<span>
+						<p>监督：021-38119999-6038</p>
+						<p>在线客服</p>
+					</span>
+				</div>
+			</div>
+			<div class="hr"></div>
+			<div class="bottom">
+				<p>CopyRight © 2015-2016 funwear.com 沪ICP备05033127号</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

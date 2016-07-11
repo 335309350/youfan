@@ -1,0 +1,270 @@
+i {
+  font-style: normal;
+}
+.top_bar {
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-color: #3b3b3b;
+  min-width: 1280px;
+}
+.top_bar span {
+  color: #BBBBBB;
+  font-size: 12px;
+  display: block;
+  margin-left: 33px;
+  float: left;
+}
+.top_bar span a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #bbb;
+}
+.top_bar span a:hover {
+  color: #bbb;
+  text-decoration: none;
+}
+.top_bar ul {
+  float: right;
+  margin-right: 20px;
+  position: relative;
+}
+.top_bar ul a li {
+  float: left;
+  width: 80px;
+  height: 30px;
+  margin-right: 8px;
+  list-style: none;
+  color: #bbb;
+  font-size: 12px;
+}
+.top_bar ul a li i {
+  width: 20px;
+  height: 16px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+.top_bar ul a .n1 i {
+  background-image: url('../images/stadius.png');
+}
+.top_bar ul a .n2 i {
+  background-image: url('../images/ico_myorder.png');
+}
+.top_bar ul a .n3 i {
+  background-image: url('../images/ico_myfavor.png');
+}
+.top_bar ul a .n4 i {
+  background-image: url('../images/ico_mobile.png');
+}
+.top_bar ul .my {
+  width: 68px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+  text-align: center;
+  display: none;
+}
+.top_bar ul .my a {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: microsoft yahei;
+}
+.top_bar ul .my a:hover {
+  text-decoration: none;
+}
+.top_bar ul #mobile {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: none;
+  z-index: 500;
+}
+.nav {
+  min-width: 1280px;
+  height: 86px;
+  background-color: #fff;
+  border-bottom: 6px solid #3B3B3B;
+}
+.nav .logo {
+  margin-left: 33px;
+  float: left;
+  text-align: center;
+  height: 86px;
+  line-height: 86px;
+}
+.nav .list {
+  float: left;
+  height: 86px;
+  margin-left: 5px;
+  margin-right: 250px;
+  line-height: 65px;
+}
+.nav .list ul {
+  float: left;
+  list-style: none;
+}
+.nav .list ul a li {
+  float: left;
+  color: #3B3B3B;
+  font-size: 20px;
+  font-weight: bold;
+  width: 90px;
+}
+.nav .list .l1 {
+  margin-right: -45px;
+  position: relative;
+}
+.nav .list .l1 #nz {
+  width: 1500px;
+  height: 348px;
+  border-top: 1px solid#3B3B3B;
+  border-bottom: 1px solid#3B3B3B;
+  background-color: #fff;
+  position: absolute;
+  z-index: 500;
+  padding: 20px;
+  left: -180px;
+  top: 70px;
+  display: none;
+}
+.nav .list .l1 #nz .circle1 {
+  height: 15px;
+  width: 15px;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+  left: 230px;
+}
+.nav .list .l1 #nz ul {
+  font-size: 18px;
+  font-family: microsoft yahei;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.nav .list .l1 #nz ul li {
+  font-weight: 400;
+  font-size: 14px;
+}
+.nav .list .l1 #nz .pic {
+  float: right;
+  margin-right: 160px;
+  margin-top: 15px;
+  border-left: 1px solid#D8D8D8;
+  padding-left: 80px;
+}
+.nav .list .l1 #nanz {
+  width: 1500px;
+  height: 348px;
+  border-top: 1px solid#3B3B3B;
+  border-bottom: 1px solid#3B3B3B;
+  background-color: #fff;
+  position: absolute;
+  z-index: 500;
+  padding: 20px;
+  left: -180px;
+  top: 70px;
+  display: none;
+}
+.nav .list .l1 #nanz .circle2 {
+  height: 15px;
+  width: 15px;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+  left: 320px;
+}
+.nav .list .l1 #nanz ul {
+  font-size: 18px;
+  font-family: microsoft yahei;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.nav .list .l1 #nanz ul li {
+  font-weight: 400;
+  font-size: 14px;
+}
+.nav .list .l1 #nanz .pic {
+  float: right;
+  margin-right: 160px;
+  margin-top: 15px;
+  border-left: 1px solid#D8D8D8;
+  padding-left: 80px;
+}
+.nav .list .l1 #sh {
+  width: 1500px;
+  height: 348px;
+  border-top: 1px solid#3B3B3B;
+  border-bottom: 1px solid#3B3B3B;
+  background-color: #fff;
+  position: absolute;
+  z-index: 500;
+  padding: 20px;
+  left: -180px;
+  top: 70px;
+  display: none;
+}
+.nav .list .l1 #sh .circle3 {
+  height: 15px;
+  width: 15px;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+  left: 410px;
+}
+.nav .list .l1 #sh ul {
+  font-size: 18px;
+  font-family: microsoft yahei;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.nav .list .l1 #sh ul li {
+  font-weight: 400;
+  font-size: 14px;
+}
+.nav .list .l1 #sh .pic {
+  float: right;
+  margin-right: 160px;
+  margin-top: 15px;
+  border-left: 1px solid#D8D8D8;
+  padding-left: 80px;
+}
+.nav .search {
+  height: 86px;
+  line-height: 65px;
+  float: right;
+}
+.nav .search #search {
+  float: left;
+  margin-right: 30px;
+}
+.nav .search span {
+  display: inline-block;
+  margin-right: 70px;
+  float: left;
+}
+.nav #move {
+  display: none;
+  position: absolute;
+  top: 48px;
+  left: 160px;
+  z-index: 1000;
+  margin-left: -10px;
+}
+.nav #move input {
+  width: 1000px;
+  height: 35px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  margin-right: -5px;
+}

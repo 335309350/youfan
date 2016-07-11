@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
+}
+clearfix:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+clearfix {
+  zoom: 1;
+}
